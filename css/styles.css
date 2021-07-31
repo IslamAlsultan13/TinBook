@@ -1,0 +1,318 @@
+body {
+  /* text-align: center;
+  margin: 0; */
+  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(90deg, rgba(255, 251, 223, 1) 0%, rgba(255, 251, 223, 1) 100%);
+}
+
+/* hr{
+  border-style: none;
+  border-top-style: dashed;
+  border-color: #393232;
+  border-width: 2px;
+  background-color: white;
+} */
+/* _______________________________________________________________ Top section __________________________________________________________ */
+#top-section {
+  background-image: linear-gradient(90deg, rgba(255, 251, 223, 1) 0%, rgba(255, 251, 223, 1) 100%);
+  width: 100%;
+}
+
+h1 {
+  color: #57837B;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 4rem;
+  line-height: 1.5;
+  padding-bottom: 16px;
+}
+
+.the-hero-img {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  position: absolute;
+  right: 250px;
+  transform: rotate(25deg);
+  /* transform: translate(100%, 0); */
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.Download-btn {
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.Download-btn:hover {
+  color: #F1ECC3;
+  border-radius: 12px;
+}
+
+.nav-item {
+  padding: 1.0rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-right: 0;
+  height: auto;
+  /* transform: translate(117px, -0); */
+}
+
+a:hover {
+  /* text-decoration: underline;
+  text-decoration-style: dotted; */
+  font-weight: 900;
+  transition: color .45s ease-in-out,
+    background-color .45s ease-in-out,
+    border-color .45s ease-in-out,
+    box-shadow .45s ease-in-out;
+}
+
+.site-description {
+  position: relative;
+  margin-top: 70px;
+  margin-left: 0;
+}
+
+.navbar {
+  padding-bottom: 4.2rem;
+  padding-top: 0;
+}
+
+.row {
+  padding-left: 0;
+  justify-content: center;
+}
+
+.site-description {
+  align-content: center;
+  max-width: fit-content;
+}
+
+/* _______________________________________________________________ middle section _________________________________________________________ */
+#features {
+  text-align: center;
+  padding: 7% 2%;
+  background-image: linear-gradient(90deg, rgba(255, 251, 223, 1) 0%, rgba(255, 251, 223, 1) 100%);
+  position: relative;
+  border-top: 1px solid;
+  border-top-style: dashed;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+h3 {
+  font-weight: bolder;
+  font-size: 1.4rem;
+  padding: 10px;
+  color: #393232;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.icon {
+  padding-bottom: 8px;
+  color: #393232;
+}
+
+.heart:hover {
+  color: #d73636;
+  transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+}
+
+.bullseye:hover {
+  color: #9136d7;
+  transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+}
+
+.check:hover {
+  color: #00a922;
+  transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+}
+
+/*___________________________________________________________ Testimonials (carousel) _________________________________________________*/
+#testimonials {
+  /* background-color: #F1ECC3; */
+  text-align: center;
+  padding: 7% 2%;
+}
+
+.carousel-caption>h2 {
+  /* font-family: 'Open Sans', sans-serif; */
+  color: #F8EDE3;
+  font-family: 'Lobster', cursive;
+  font-size: 24px;
+}
+
+.carousel-caption>p {
+  color: #FFF5DA;
+  font-weight: 400;
+  font-family: 'Lobster', cursive;
+  font-size: 1.2rem;
+}
+
+.carousel-caption {
+  justify-content: space-between;
+}
+
+.girl {
+  width: 60%;
+  border-radius: 10%;
+}
+
+/*___________________________________________________________ logooos _____________________________________________________________*/
+.logo {
+  /* margin: 72px 20px 72px; */
+  width: 60%;
+  text-align: center;
+  margin: 50px;
+}
+
+/*___________________________________________________________ Pricing ______________________________________________________________*/
+.text-muted, li {
+  color: #8f8f8f;
+}
+
+.text-center {
+  padding: 2% 2%;
+}
+
+.card {
+  /* background-image: linear-gradient(90deg, rgba(255, 251, 223, 1) 0%, rgba(255, 251, 223, 1) 100%); */
+  background-color: #F3F0D7;
+  margin-bottom: 0;
+}
+
+.price-btn {
+  border-radius: 8px;
+}
+
+.price-btn:hover {
+  color: #F1ECC3;
+  border-radius: 12px;
+}
+
+/*___________________________________________________________ about-section___________________________________________________________*/
+.pt-4, .my-md-5, .pt-md-5, .border-top {
+  text-align: center;
+  padding: 7% 16%;
+  background-color: #FFFBDF;
+}
+
+/*______________________________________________________________ footer______________________________________________________________*/
+#footer {
+  text-align: center;
+  background-color: #1B1717;
+  margin-top: 20px;
+  height: auto;
+  align-content: stretch;
+}
+
+.footerr {
+  text-align: center;
+}
+
+#footer>p {
+  margin: auto;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.pt-4, .my-md-5, .pt-md-5, .border-top {
+  margin: 0;
+  padding: 0 50px;
+}
+
+.social-media-icons-color {
+  color: #F1ECC3;
+  margin-top: 16px;
+  padding-left: 4px;
+}
+
+.twitter-icon:hover {
+  color: #1da1f2;
+  transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+}
+
+.github-icon:hover {
+  color: #f89000;
+  transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+}
+
+.linkedin-icon:hover {
+  color: #0a66c2;
+  transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+}
+
+/* .gmail-icon:hover{
+  color: #ff6153;
+  transition: color .15s ease-in-out,
+  background-color .15s ease-in-out,
+  border-color .15s ease-in-out,
+  box-shadow .15s ease-in-out;
+} */
+/*___________________________________________________________ media query ___________________________________________________________*/
+@media (max-width: 1200px) {
+  body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(90deg, rgba(255, 251, 223, 1) 0%, rgba(255, 251, 223, 1) 100%);
+  }
+
+  .the-hero-img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: static;
+    right: 250px;
+    transform: rotate(0deg);
+    /* transform: translate(100%, 0); */
+  }
+
+  /* #features
+  {
+    text-align: center;
+    padding: 7% 2%;
+    background-image: linear-gradient(90deg, rgba(255, 251, 223, 1) 0%, rgba(255, 251, 223, 1) 100%);
+    position: static;
+    border-top: 2px solid;
+    border-top-style: dashed;
+  } */
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  .navbar-expand-lg, .navbar-light {
+    padding-bottom: 0;
+    padding-top: 20px;
+  }
+
+  .site-description {
+    margin-top: 50px;
+  }
+}
