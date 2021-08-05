@@ -17,6 +17,9 @@ body {
   background-image: linear-gradient(90deg, rgba(255, 251, 223, 1) 0%, rgba(255, 251, 223, 1) 100%);
   width: 100%;
 }
+.container-fluid {
+  padding: 3% 10%;
+}
 
 h1 {
   color: #57837B;
@@ -32,8 +35,27 @@ h1 {
   position: absolute;
   right: 250px;
   transform: rotate(25deg);
-  /* transform: translate(100%, 0); */
+  height: 500px;
+  transition-timing-function: ease;
+  transition: .500s linear,
+  background-color .500s linear,
+  border-color .500s linear,
+  box-shadow .500s linear;
+  animation: backgroundIMG 2s ease-in-out 2s;
 }
+/* .the-hero-img:hover{
+  margin-top: 15px;
+  margin-bottom: 25px;
+  position: absolute;
+  right: 250px;
+  transform: rotate(0deg);
+  height: 800px;
+  transition-timing-function: ease;
+  transition: .500s linear,
+  background-color .500s linear,
+  border-color .500s linear,
+  box-shadow .500s linear;
+} */
 
 .navbar-brand {
   font-family: 'Lobster', cursive;
@@ -65,10 +87,6 @@ a:hover {
   /* text-decoration: underline;
   text-decoration-style: dotted; */
   font-weight: 900;
-  transition: color .45s ease-in-out,
-    background-color .45s ease-in-out,
-    border-color .45s ease-in-out,
-    box-shadow .45s ease-in-out;
 }
 
 .site-description {
@@ -91,6 +109,30 @@ a:hover {
   align-content: center;
   max-width: fit-content;
 }
+.books-style{
+  color: #C84B31;
+  text-decoration: underline;
+  text-decoration-color: #C84B31;
+  text-decoration-style: dotted;
+  transition-timing-function: ease;
+  transition: .300s linear,
+  background-color .300s linear,
+  border-color .300s linear,
+  box-shadow .300s linear;
+  animation: backgroundIMG 1s ease-in-out 2s;
+}
+.books-style:hover{
+  color: #57837B;
+  text-decoration-color: #57837B;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  transition-timing-function: ease;
+  transition: .300s linear,
+  background-color .300s linear,
+  border-color .300s linear,
+  box-shadow .300s linear;
+  animation: backgroundIMG 1s ease-in-out 2s;
+}
 
 /* _______________________________________________________________ middle section _________________________________________________________ */
 #features {
@@ -100,10 +142,6 @@ a:hover {
   position: relative;
   border-top: 1px solid;
   border-top-style: dashed;
-}
-
-.container-fluid {
-  padding: 3% 10%;
 }
 
 h3 {
@@ -133,17 +171,17 @@ p {
 .bullseye:hover {
   color: #9136d7;
   transition: color .15s ease-in-out,
-    background-color .15s ease-in-out,
-    border-color .15s ease-in-out,
-    box-shadow .15s ease-in-out;
+  background-color .15s ease-in-out,
+  border-color .15s ease-in-out,
+  box-shadow .15s ease-in-out;
 }
 
 .check:hover {
   color: #00a922;
   transition: color .15s ease-in-out,
-    background-color .15s ease-in-out,
-    border-color .15s ease-in-out,
-    box-shadow .15s ease-in-out;
+  background-color .15s ease-in-out,
+  border-color .15s ease-in-out,
+  box-shadow .15s ease-in-out;
 }
 
 /*___________________________________________________________ Testimonials (carousel) _________________________________________________*/
@@ -174,6 +212,26 @@ p {
 .girl {
   width: 60%;
   border-radius: 10%;
+  transition-timing-function: ease;
+  transition: .500s linear,
+  background-color .500s linear,
+  border-color .500s linear,
+  box-shadow .500s linear;
+  animation: backgroundIMG 2s ease-in-out 2s;
+  animation-fill-mode: forwards;
+}
+.girl:hover{
+  width: 65%;
+  transition-timing-function: ease;
+  transition: .500s linear,
+  background-color .500s linear,
+  border-color .500s linear,
+  box-shadow .500s linear;
+  animation: backgroundIMG 2s ease-in-out 2s;
+  animation-fill-mode: forwards;
+  border-color: #57837B;
+  border-width: 3px;
+  border-style: solid;
 }
 
 /*___________________________________________________________ logooos _____________________________________________________________*/
@@ -268,7 +326,13 @@ p {
     border-color .15s ease-in-out,
     box-shadow .15s ease-in-out;
 }
-
+.Ghzalle-icon:hover{
+  color: #D54C4C;
+  transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+}
 /* .gmail-icon:hover{
   color: #ff6153;
   transition: color .15s ease-in-out,
@@ -291,18 +355,9 @@ p {
     position: static;
     right: 250px;
     transform: rotate(0deg);
-    /* transform: translate(100%, 0); */
+    height: 400px;
   }
 
-  /* #features
-  {
-    text-align: center;
-    padding: 7% 2%;
-    background-image: linear-gradient(90deg, rgba(255, 251, 223, 1) 0%, rgba(255, 251, 223, 1) 100%);
-    position: static;
-    border-top: 2px solid;
-    border-top-style: dashed;
-  } */
   h1 {
     font-size: 2.8rem;
   }
